@@ -40,7 +40,7 @@ EXPOSE 3389 8006
 
 ENV VERSION="11"
 ENV RAM_SIZE="32G"
-ENV CPU_CORES="32"
+ENV CPU_CORES="16"
 ENV DISK_SIZE="200G"
 
 ENTRYPOINT ["/usr/bin/tini", "-s", "/run/entry.sh"]
